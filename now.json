@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "webrtc",
-  "builds": [
-    { "src": "server.js", "use": "node" }
-  ]
+  "scripts": {
+    "start": "node --expose-http2 server.js"
+  }
 }
