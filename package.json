@@ -5,6 +5,14 @@
   "scripts": {
     "start": "node server.js"
   },
+  "now": {
+    "engines": {
+      "node": "9.10.1"
+    }
+  },
+  "engines": {
+    "node": "9.10.1"
+  },
   "keywords": [
     "WebRTC"
   ],
